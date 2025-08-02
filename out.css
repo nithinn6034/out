@@ -1,0 +1,28 @@
+.parent{
+    width: 100%;
+    height: 700px;
+    background-color: brown;
+    display: flex;
+}
+.side{
+    width: 15%;
+    height: 100%;
+    background-color: chocolate;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.class{
+    color: chartreuse;
+    justify-content: end;
+    
+    cursor: pointer;
+    &:hover{
+        color: blueviolet;
+    }
+}
+.right{
+    width: 85%;
+    height: 100%;
+    background-color: black;
+}
