@@ -25,4 +25,13 @@
     width: 85%;
     height: 100%;
     background-color: black;
+    display: flex;
+}
+.hai{
+    width: 50%;
+    height: 50%;
+}
+.hello{
+    width: 50%;
+    height: 50%;
 }
